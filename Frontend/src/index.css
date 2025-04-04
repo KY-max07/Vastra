@@ -1,0 +1,10 @@
+@import "../public/fonts.css";
+@import "tailwindcss";
+
+@theme {
+  --font-secondary: "ClashDisplay-Regular", "Satoshi", "sans-serif";
+  --font-primary: "Satoshi-Regular", sans-serif;
+  --font-canopee: "Canopee";
+
+  --color-red: #ea1e63;
+}

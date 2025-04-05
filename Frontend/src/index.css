@@ -6,5 +6,8 @@
   --font-primary: "Satoshi-Regular", sans-serif;
   --font-canopee: "Canopee";
 
-  --color-red: #ea1e63;
+  --color-rabbit-red: #ea2e0e;
+}
+.bg-color{
+  background-color: gray;
 }

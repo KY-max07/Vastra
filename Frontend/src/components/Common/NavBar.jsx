@@ -92,16 +92,13 @@ const NavBar = () => {
           </button>
         </div>
         <div className="p-4 font-secondary">
-          <h2 className="text-5xl font-semibold mb-4 uppercase">
-            menu
-          </h2>
-          <nav className="flex flex-col mt-10 text-3xl">
+          <h2 className="text-5xl font-semibold mb-4 uppercase">menu</h2>
+          <nav className="flex flex-col mt-10 text-3xl ">
             <NavLink
               to="#"
               onClick={toggleMobileDraw}
               className="block text-gray-800 text-center uppercase border-b border-gray-500  p-5 hover:text-white hover:bg-gray-900"
             >
-              {" "}
               men
             </NavLink>
             <NavLink
@@ -109,15 +106,13 @@ const NavBar = () => {
               onClick={toggleMobileDraw}
               className="block text-gray-800 text-center uppercase border-b border-gray-500 p-5 hover:text-white hover:bg-gray-900"
             >
-              {" "}
-             Women
+              Women
             </NavLink>
             <NavLink
               to="#"
               onClick={toggleMobileDraw}
               className="block text-gray-800 text-center uppercase border-b border-gray-500 p-5 hover:text-white hover:bg-gray-900"
             >
-              {" "}
               new arrival
             </NavLink>
             <NavLink
@@ -125,16 +120,14 @@ const NavBar = () => {
               onClick={toggleMobileDraw}
               className="block text-gray-800 text-center uppercase border-b border-gray-500 p-5 hover:text-white hover:bg-gray-900"
             >
-              {" "}
               topwear
             </NavLink>
-            
+
             <NavLink
               to="#"
               onClick={toggleMobileDraw}
               className="block text-gray-800 text-center uppercase   p-5 hover:text-white hover:bg-gray-900"
             >
-              {" "}
               bottomwear
             </NavLink>
           </nav>

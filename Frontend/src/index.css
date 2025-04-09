@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-secondary: "ClashDisplay-Regular", "Satoshi", "sans-serif";
-  --font-primary: "Satoshi-Regular", sans-serif;
+  --font-secondary: "ClashDisplay-Regular";
+  --font-primary: "Satoshi-Regular";
   --font-canopee: "Canopee";
 
   --color-rabbit-red: #ea2e0e;

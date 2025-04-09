@@ -21,7 +21,7 @@ const CardItems = () => {
       image: "https://picsum.photos/200?random=10",
     },
     {
-        productId: 20,
+        productId: 21,
         name: "Shirt - Highlander",
         size: "S",
         color: "Yellow",
@@ -29,7 +29,7 @@ const CardItems = () => {
         price: 20,
         image: "https://picsum.photos/200?random=13",
       },{
-        productId: 20,
+        productId: 202,
         name: "Shirt - Highlander",
         size: "S",
         color: "Yellow",
@@ -37,7 +37,7 @@ const CardItems = () => {
         price: 20,
         image: "https://picsum.photos/200?random=14",
       },{
-        productId: 20,
+        productId: 203,
         name: "Shirt - Highlander",
         size: "S",
         color: "Yellow",
@@ -45,7 +45,7 @@ const CardItems = () => {
         price: 20,
         image: "https://picsum.photos/200?random=18",
       },{
-        productId: 20,
+        productId: 204,
         name: "Shirt - Highlander",
         size: "S",
         color: "Yellow",
@@ -53,7 +53,7 @@ const CardItems = () => {
         price: 20,
         image: "https://picsum.photos/200?random=17",
       },{
-        productId: 20,
+        productId: 205,
         name: "Shirt - Highlander",
         size: "S",
         color: "Yellow",
@@ -61,7 +61,7 @@ const CardItems = () => {
         price: 20,
         image: "https://picsum.photos/200?random=16",
       },{
-        productId: 20,
+        productId: 206,
         name: "Shirt - Highlander",
         size: "S",
         color: "Yellow",
@@ -100,7 +100,7 @@ const CardItems = () => {
               </div>
             </div>
           </div>
-          <div className="mx-4 flex flex-col items-center ">
+          <div className="mx-4 flex flex-col items-end  ">
             <p className="text-gray-600 font-bold mb-6 mt-2">${product.price.toLocaleString()}</p>
             <button>
                 <RiDeleteBin3Line className="h-6 w-6 text-rabbit-red mt-2"/>
